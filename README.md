@@ -2,7 +2,7 @@
 Do you realy need lodash in some cases ?
 <hr>
 Using spread to remove not useful keys ofm obj. (return new  obj)
-```
+```ruby
   const a = {
         one: 1,
         two: 2,
