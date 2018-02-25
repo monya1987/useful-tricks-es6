@@ -2,7 +2,7 @@
 Do you realy need lodash in some cases ?
 <hr>
 Using spread to remove not useful keys ofm obj. (return new  obj)
-<code>
+```
   const a = {
         one: 1,
         two: 2,
@@ -10,7 +10,7 @@ Using spread to remove not useful keys ofm obj. (return new  obj)
     };
   const {one, ...clean} = a;
   console.log(clean); // clean = {two: 2, three: 3}
-</code>
+```
 
 
 <hr>
